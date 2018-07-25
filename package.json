@@ -1,0 +1,21 @@
+{
+  "name": "xwb_dictionary",
+  "version": "1.0.1",
+  "description": "基于nodejs的网络爬虫词典",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "fy": "./index.js"
+  },
+  "author": "qqxwbtt",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "http": "^0.0.0",
+    "iconv-lite": "^0.4.23",
+    "is-chinese": "^1.2.5",
+    "request": "^2.87.0"
+  }
+}
