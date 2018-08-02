@@ -1,21 +1,49 @@
 {
-  "name": "xwb_dictionary",
-  "version": "1.0.1",
-  "description": "基于nodejs的网络爬虫词典",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "_from": "xwb_dictionary",
+  "_id": "xwb_dictionary@1.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-PA8UNFAcX1gcrz+HXm3HcsV0IPBGDvntUYCJnNqyuCYdjrvpJuJn4kA6s5j4Gf5ZW+uM+JhqKZXvaB88hZC7Aw==",
+  "_location": "/xwb_dictionary",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "xwb_dictionary",
+    "name": "xwb_dictionary",
+    "escapedName": "xwb_dictionary",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/xwb_dictionary/-/xwb_dictionary-1.0.1.tgz",
+  "_shasum": "6544e17c1b68730b83211b55b52d982cef9cce22",
+  "_spec": "xwb_dictionary",
+  "_where": "C:\\Users\\Administrator",
+  "author": {
+    "name": "qqxwbtt"
   },
   "bin": {
     "fy": "./index.js"
   },
-  "author": "qqxwbtt",
-  "license": "ISC",
+  "bundleDependencies": false,
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
+    "cli-spinner": "^0.2.8",
     "http": "^0.0.0",
     "iconv-lite": "^0.4.23",
     "is-chinese": "^1.2.5",
     "request": "^2.87.0"
-  }
+  },
+  "deprecated": false,
+  "description": "基于nodejs的网络爬虫词典",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "xwb_dictionary",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.2"
 }
